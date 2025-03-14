@@ -12,7 +12,7 @@ try{
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
 }catch(e){
 console.log(e)
-reply(`${hey👋,I´am alive now👩‍💻}`)
+reply(`${}`)
 }
 })
 
