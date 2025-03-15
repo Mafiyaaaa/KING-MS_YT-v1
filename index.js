@@ -66,10 +66,10 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('Plugins installed successful✅')
-console.log('*KING-MS_YT Bot connected to whatsapp* ✅')
+console.log (Plugins installed successful✅)
+console.log(KING-MS_YT Bot connected to whatsapp ✅)
 
-let up = `*KING-MS_YT* Watsapp Bot connected✅ Enjoy👩‍💻PREFIX: ${prefix}`;
+let up = KING-MS_YT Watsapp Bot connected✅ Enjoy👩‍💻PREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
